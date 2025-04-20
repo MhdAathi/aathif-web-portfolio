@@ -1,79 +1,73 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = ` Dedicated Computer Science graduate specializing in software development and full-stack web
- technologies. Proficient in PHP, Java, and modern front-end frameworks, with hands-on experience in
- developing scalable systems and custom-built solutions. Seeking opportunities to leverage my technical
- expertise and problem-solving skills to deliver impactful software solutions.`;
+export const HERO_CONTENT = `Aathif is a passionate Software Engineering student with a strong foundation in full-stack web development and modern technologies. Known for his creativity, adaptability, and drive to build clean, efficient, and user-friendly digital experiences, he is constantly exploring new tools and best practices in the tech world. Whether it's crafting seamless front-end interfaces or building powerful back-end systems, Aathif is committed to turning ideas into reality with code.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `A committed Software Engineering Intern and Computer Science graduate, skilled in software development, enterprise software, and 
+full-stack web technologies. Proficient in PHP, Java, and modern front-end frameworks, with experience developing scalable 
+solutions. Recognized for strong problem-solving skills, attention to detail, and creativity in software engineering. Experienced in 
+operating systems and enterprise-level application development, with a focus on sustainability and efficiency. Innovative and 
+collaborative, with excellent teamwork and communication skills. Eager to contribute technical expertise to a dynamic and forward
+thinking team. `;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "11/2021 - Present",
+    role: "IT Support Technician",
+    company: "SMART PC Pvt Ltd, Sri Lanka",
+    description: `Provided technical support and troubleshooting for hardware and software issues. Assisted in software installations and optimizations to improve system efficiency. Developed strong problem-solving and debugging skills, which are transferable to software engineering and web development.`,
+    technologies: [
+      "Hardware Support",
+      "Software Troubleshooting",
+      "Windows",
+      "Linux",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "BloodHub | Blood Bank Management System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A web-based blood bank management system to streamline donor registration, blood inventory tracking, and hospital requests. It enhances operational efficiency, ensures real-time transparency, and optimizes blood supply management.",
+    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    github: "https://github.com/MhdAathi/BloodHub-Project", // 👈 Your GitHub repo link
   },
   {
-    title: "Task Management App",
+    title: "GiveHope | Crowdsourced Fundraising Platform",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A crowdfunding platform designed to streamline campaign management, enable secure donation processing, and enhance supporter engagement. It provides real-time fund tracking and ensures transparency and trust for donors and campaign creators.",
+    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    github: "https://github.com/MhdAathi/GiveHope", // 👈 GitHub link
   },
   {
-    title: "Portfolio Website",
+    title: "Aurora Skin Care | Clinic Appointment & Billing System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Java-based appointment and billing management system for Aurora Skin Care, streamlining appointment scheduling, patient registration, and invoicing to improve clinic operations.",
+    technologies: ["Java", "Object-Oriented Programming (OOP)"],
+    github: "https://github.com/MhdAathi/aurora-skin-care-system", // 👈 GitHub link
   },
   {
-    title: "Blogging Platform",
+    title: "Pizza Shop System | Customizable Ordering & Payment Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A Java-based pizza shop management system with customizable orders, real-time tracking, and a loyalty program to enhance customer satisfaction and streamline operations.",
+    technologies: [
+      "Java",
+      "Object-Oriented Programming (OOP)",
+      "Design Patterns (Builder, State, Strategy)",
+    ],
+    github: "https://github.com/MhdAathi/PizzaShopSystem", // 👈 GitHub link
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "34/A, Danagama, Mawanella 7C7V+C8M ",
+  phoneNo: "+94 76 918 3535 | +94 75 021 3767 ",
+  email: "mohamedaathif.dev@gmail.com ",
 };
