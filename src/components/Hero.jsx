@@ -14,8 +14,8 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+    <div className="border-b border-neutral-900 pb-1 lg:mb-15">
+      <div className="flex flex-wrap items-center justify-center lg:justify-between px-8">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1

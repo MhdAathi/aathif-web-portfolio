@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className="mb-05 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
@@ -27,12 +27,12 @@ const Navbar = () => {
         </a>
         <a
           href="src\assets\Mohamed_Aathif_Sofware_Engineer_Intern.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="View CV"
+          download="Mohamed_Aathif_CV"
+          title="Download CV"
         >
           <FaFileAlt />
         </a>
+
         <a
           href="https://www.instagram.com/__aathi_01?igsh=MXVkYTJyODg2eTF1OQ=="
           target="_blank"
