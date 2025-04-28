@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-1">
-      <h2 className="text-center text-4xl">
+    <div className="border-b border-neutral-900 pb-4">
+      <h2 className="text-center text-4xl my-10">
         About <span className="text-neutral-500"> Me</span>
       </h2>
       <div className="flex flex-wrap items-center justify-center lg:justify-between">

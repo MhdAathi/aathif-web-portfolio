@@ -27,7 +27,7 @@ const Navbar = () => {
         </a>
         <a
           href="src\assets\Mohamed_Aathif_Sofware_Engineer_Intern.pdf"
-          download="Mohamed_Aathif_CV"
+          download="Mohamed_Aathif_CV.pdf"
           title="Download CV"
         >
           <FaFileAlt />
